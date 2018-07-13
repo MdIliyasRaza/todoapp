@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="If meeting doesn't require a password leave the password blank."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/meetingID"
+        android:phoneNumber="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Meeting ID"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/meetingPass"
+        android:phoneNumber="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Meeting Password"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

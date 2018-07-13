@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/join_meeting"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Join Meeting" />
+        <item
+            android:id="@+id/instant_meeting"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Start Instant Meeting" />
+
+        <item
+            android:id="@+id/custom_meeting"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Start Custom Meeting" />
+
+        <item
+            android:id="@+id/keys_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Keys Settings" />
+
+    </group>
+
+    <item android:title="Zoom Video Communications\u00A9 2016">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share ZOOM" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Support Center ( zoom.us )" />
+        </menu>
+    </item>
+
+
+</menu>
